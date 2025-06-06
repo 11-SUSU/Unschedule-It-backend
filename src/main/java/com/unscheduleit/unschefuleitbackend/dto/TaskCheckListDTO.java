@@ -1,0 +1,15 @@
+package com.unscheduleit.unschefuleitbackend.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+public class TaskCheckListDTO {
+
+    private String checkListId;
+    private String taskId;
+
+}
